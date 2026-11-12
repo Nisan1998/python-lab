@@ -19,8 +19,7 @@ if __name__ == "__main__":
     conn = DBConnection(
         hostname="localhost",
         port=5432,
-        user="demo_user",
-        password="demo_password",
+        user="user",
+        password="password",
     )
     conn.show_parameters()
-    
